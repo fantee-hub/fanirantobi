@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>  JavaScript Task 2 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <style>
+    body{
+      background-color: #Add8e6;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    *{
+      box-sizing: border-box;
+    }
+    .main{ 
+      border: none;
+      height: 100px;
+      background-color: white;
+      width: 450px;
+      margin:0px auto;
+      padding: 17px 32px;
+      height:900px;
+      border-radius: 23px 23px 23px 0px;
+      overflow:auto;
+    }
+    div.image{
+      text-align: center;
+      }
+    .header{
+      padding:12px 50px;
+      color:#083e9e;
+    }
+    .paragraph{
+      margin-top:-28px;
+      padding:0 38px;
+      font-size:14.1px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color:#626d76;
+    }
+    .row:after{
+      clear:both;
+      content:"";
+      display:table;
+    }
+    .row{
+      padding:12px;
+      margin-left:-12px;
+    }
+    input[type=text],select{
+      width:105%;
+      padding:20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border:none;
+      background-color: #edf2f7;
+      resize:vertical;
+      font-size: 16px;
+      
+    }
+    input[type=text],select:focus{
+      outline:none;
+
+    }
+    input[type=password]{
+      width:105%;
+      padding:20px;
+      margin-top:10px;
+      border-radius: 5px;
+      border:none;
+      background-color: #edf2f7;
+      font-size:16px;
+    }
+    input[type=password]{
+      outline:none;
+    }
+    label{
+      padding: 12px 12px 12px 0;
+      color:#4a5568;
+    }
+    button{
+      width:105%;
+      padding:19px;
+      background-color:#083e9e;
+      color:#ffffff;
+      border:none;
+      border-radius: 10px 10px 10px 0;
+      cursor:pointer;
+    }
+    button:hover{
+      background-color: #062b6f;
+    }
+    button:focus{
+      outline:none;
+    }
+    div.foot{
+      text-align: center;
+      margin-top:0px;
+    }
+    .account{
+      text-decoration: none;
+      color:white;
+      
+      
+    }
+    .account:hover{
+      color:#4a5568;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="image">
+    <img src="Untitled-2.png" class="logo" width="200">
+  </div>
+<div class="main">
+    <div class="create-account">
+    <h2 class="header"> Create a Secure Account</h2>
+    <p class="paragraph"> Welcome to the future of Savings & Investments</p>
+    </div>
+
+  <div class="formpage">
+  <form action="" method="" name="input">
+    <div class="row">
+      <div class="col-25">
+      <label for="Fname"> Full Name</label><br/>
+      </div>
+      <div class="col-75">
+      <input type="text" name="fname" placeholder="Full Name"><br/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      <label for="Eaddress"> Email Address </label><br/>
+      </div>
+      <div class="col-75">
+      <input type="text" name="eaddress" placeholder="Email Adress"><br/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      <label for="Pnumber"> Phone Number </label><br/>
+      </div>
+      <div class="col-75">
+      <input type="text" name="pnumber" placeholder="Phone Number"><br/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      <label for="Pword"> Password </label><br/>
+      </div>
+      <div class="col-75">
+      <input type="password" name="pword" placeholder="Password"><br/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      <label for="Referral"> Referrer Phone or Promo Code (Optional) </label><br/>
+      </div>
+      <div class="col-75">
+      <input type="text" name="Referral" placeholder="Referrer Phone Or Code"><br/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+      <label for="About"> How Did You Hear About Us? (Optional) </label><br/>
+      </div>
+      <div class="col-75">
+      <select name="us">
+        <option value="click to select"> Click to Select </option>
+        <option value="Facebook"> Facebook </option>
+        <option value="Twitter"> Twitter </option>
+        <option value="Instagram"> Instagram </option>
+        <option value="Friend/family/ Coworker referal"> Friends/Family/Coworker Referral </option>
+        <option value="Google Search"> Google search </option>
+        <option value="Google playstore"> Google playstore </option>
+        <option value="Online Blog"> Online Blog </option>
+        <option value="Local Newspaper"> Local Newspaper </option>
+        <option value="At an event"> At an event </option>
+        <option value="Other"> Other </option>
+      </select>
+      </div>
+    </div>
+    <div class="row">
+      <button> CREATE ACCOUNT </button>
+    </div>
+    </form>
+  </div>
+</div>
+  <div class="foot">
+   <p><a href="https://dashboard.piggyvest.com/login" class="account"> Already have an account? Log in </a></p>
+  </div>
+</body>
+</html>
